@@ -91,7 +91,7 @@ public:
 	// getters
 	string getName() { return this->name;	}
 	string getCourse() { return this->course; }
-	chrono::system_clock::time_point getDueDate() { return due; }
+	chrono::system_clock::time_point getDueDate() { return this->due; }
 	double getLength() { return this->length; }
 	double getWeight() { return this->weight; }
 	bool getCompletionStatus() { return this->complete; }
